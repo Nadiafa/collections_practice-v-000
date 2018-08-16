@@ -24,5 +24,5 @@ def kesha_maker(arr)
 end
 
 def find_a(arr)
-  arr.start_with?"a"
+  arr.start_with?
 end
