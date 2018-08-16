@@ -37,7 +37,7 @@ end
 def add_s(arr)
   arr.each do |i|
     if i != 1 
-      "#{arr[i]}s"
+      return "#{arr[i]}s"
     end
 end
 
