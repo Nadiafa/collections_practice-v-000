@@ -11,5 +11,6 @@ def sort_array_char_count(arr)
 end
 
 def swap_elements(arr)
-  arr[c_index, n_index].reverse
+  arr.collect do |i|
+    reverse
 end
