@@ -38,7 +38,7 @@ def add_s(arr)
   plurals = []
   arr.collect do |i|
     if i != 1 
-      plurals << "#{arr[i]}s"
+      plurals << "#{i}s"
     else
       arr
     end
