@@ -10,6 +10,6 @@ def sort_array_char_count(arr)
   arr.sort {|i, j| i.length<=>j.length}
 end
 
-def swap_elements(arr, c_index, n_index)
+def swap_elements(arr)
   arr[c_index, n_index].reverse
 end
