@@ -34,8 +34,12 @@ def sum_array(arr)
   sum
 end
 
-def add_s
-  
+def add_s(arr)
+  arr.each_with_index do |e, i|
+    if i != 2 
+      e[i].push("s")
+    end
+  end
 end
 
 
