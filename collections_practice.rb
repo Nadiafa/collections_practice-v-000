@@ -35,9 +35,9 @@ def sum_array(arr)
 end
 
 def add_s(arr)
-  arr.each_with_index do |e, i|
+  arr.each do |i|
     if i != 1 
-      "#{e[i]}s"
+      "#{arr[i]}s"
     end
   end
 end
