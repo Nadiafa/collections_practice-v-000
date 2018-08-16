@@ -29,7 +29,10 @@ def find_a(arr)
 end
 
 def sum_array(arr)
-  arr.each { |i,j| i + j }
+  arr.each do |i, j|
+    sum = i + j
+  end
+  sum
 end
 
 
