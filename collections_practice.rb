@@ -37,11 +37,23 @@ end
 def add_s(arr)
   plurals = []
   arr.each do |i|
-    if i != 1 
+    if arr[i] != 1 
       plurals << "#{arr[i]}s"
     else
       arr
     end
+end
+
+
+
+def add_s(array)
+  array.collect do |word|
+    if array[1] == word
+      word
+    else
+      word + "s"
+    end
+  end
 end
 
 
