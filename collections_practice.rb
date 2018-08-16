@@ -39,6 +39,8 @@ def add_s(arr)
   arr.each do |i|
     if i != 1 
       plurals << "#{arr[i]}s"
+    else
+      arr
     end
 end
 
