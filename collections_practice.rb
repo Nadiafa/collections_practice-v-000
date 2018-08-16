@@ -30,7 +30,7 @@ end
 
 def sum_array(arr)
   sum = 0
-  arr.each { |i| sum += i }
+  arr.each { |i| sum = sum + i }
 end
 
 
