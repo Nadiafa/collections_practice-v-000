@@ -36,7 +36,7 @@ end
 
 def add_s(arr)
   arr.collect do |i|
-    if i == arr[1] 
+    if i != arr[1] 
       i + "s"
     else
       i
