@@ -35,7 +35,6 @@ def sum_array(arr)
 end
 
 def add_s(arr)
-  plurals = []
   arr.collect do |i|
     if i != 1 
       plurals << "#{i}s"
