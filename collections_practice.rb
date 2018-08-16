@@ -39,7 +39,6 @@ def add_s(arr)
     if i != 1 
       "#{arr[i]}s"
     end
-  end
 end
 
 
