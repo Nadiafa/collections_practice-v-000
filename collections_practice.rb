@@ -5,3 +5,7 @@ end
 def sort_array_desc(arr)
   arr.sort {|i, j| j<=>i}
 end
+
+def sort_array_desc(arr)
+  arr.sort {|i, j| j<=>i}
+end
