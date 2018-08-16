@@ -37,7 +37,7 @@ end
 def add_s(arr)
   arr.collect do |i|
     if i != 1 
-      "#{i}s"
+      i + "s"
     else
       i
     end
