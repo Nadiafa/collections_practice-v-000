@@ -27,3 +27,11 @@ def find_a(arr)
   arr.find_all {|i| i.start_with?("a")}
   
 end
+
+def sum_array(arr)
+  arr.each { |i,j| i + j }
+end
+
+
+
+
