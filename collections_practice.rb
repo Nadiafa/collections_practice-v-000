@@ -25,4 +25,5 @@ end
 
 def find_a(arr)
   arr.start_with?("a")
+  arr
 end
